@@ -1,5 +1,5 @@
 name = "SMSPool"
-description = "Protect your identity today with our one-time use or rental phone numbers."
+description = "SMSPool is a service that protects your identity with the usage of virtual phone numbers which help you mask your own phone number."
 slug = "smspool"
 hostnames = [ "www.smspool.net" ]
 sources = [ "https://www.smspool.net/privacy-policy" ]
@@ -12,9 +12,9 @@ citations = [
 ]
 
 [rubric.security]
-value = "na"
+value = "yes"
 notes = [
-  "SMSPool does not store or require any personal data"
+  "Smspool.net is committed to taking all necessary measures and actions to protect your data. Our data protection practices are based on the best industry standards such as hashing your passwords with bCrypt, and only ask for information that is deemed important to us."
 ]
 
 [rubric.third-party-collection]
@@ -23,11 +23,14 @@ citations = [ "Smspool.net makes use of the services of third party companies th
 
 [rubric.history]
 value = "last-modified"
+citations = [
+  "\"Most recent updated\""
+]
 
 [rubric.data-deletion]
 value = "yes-automated"
 citations = [
-  "\"Upon your request, Smspool.net will remove all personal data that we collected from you. Furthermore, each individual has the right to correct or update its personal information, deletions may take up to 48 hours to process.\""
+  "\"Each User has at all times the right to withdraw its consent. In addition, each individual may request the permanent removal of its personal data and information. Upon your request through your settings page, Smspool.net will remove all personal data that we collected from you. Furthermore, each individual has the right to correct or update its personal information, deletions may take up to 48 hours to process.\""
 ]
 
 [rubric.data-breaches]
@@ -37,22 +40,37 @@ citations = [
 ]
 
 [rubric.third-party-access]
-value = "no"
+value = "yes-specified-critical"
+citations = [
+  "\"Smspool.net makes use of the services of third party companies that are processing your data. We are committed to only engage with those companies that fully comply with the GDPR and CCP, maintain the highest standards of data protection and never sell data to other parties. We only make use of the services of Cloudfare for Analytics, CDN and DDoS protection, based out of the United States that will monitor certain visitor behavior on our website. We advise you to read their Privacy Policy available on https://www.cloudflare.com/privacypolicy/. Next to Cloudflare; we use Stripe which processes your payments and the requests only contain your user ID.\""
+]
 
 [rubric.data-collection-reasoning]
 value = "yes"
 citations = [
-  "\"We collect and process the following personal data from visitors and subscribers. The purpose of this will be to register you as a User to our services: Username, and optionally email address. In addition, we may store the IP addresses from each visitor, which is only used for statistical purposes, and this will not be linked to your personal data.\""
+  "\"We collect and process the following personal data from visitors and subscribers. The purpose of this will be to register you as a User to our services: Username, password (hashed in bCrypt), and optionally email address. In addition, we may store the IP addresses from each request which is only used for statistical purposes for our DDoS protection such as ratelimits per IP, and this will not be linked to your user data.\""
 ]
 
 [rubric.noncritical-purposes]
 value = "na"
+citations = [
+  "\"All data we collect and process will be used to provide our Services to you. In addition, we may use this information for maintaining and improving our website, mobile applications and all other services we offer. We may provide you with information about our Services that you explicitly requested from us, answering your questions or responding to other communications you send to us. We do not send sell/send your information for marketing.\""
+  ]
 
 [rubric.law-enforcement]
 value = "reasonable"
+citations = [
+  "\"We may also track and analyze data for investigating and preventing fraudulent behavior, or other unauthorized or illegal transactions and/or activities. For that purpose we may link, connect or combine certain pieces of data. This information can be requested by law enforcement as long as it is within reasonable demand, and our investigations deem the provided report to be matching up with our internal records.\""
+]
 
 [rubric.list-collected]
-value = "na"
+value = "summarily"
+citations = [
+  "\"We collect and process the following personal data from visitors and subscribers. The purpose of this will be to register you as a User to our services: Username, password (hashed in bCrypt), and optionally email address. In addition, we may store the IP addresses from each request which is only used for statistical purposes for our DDoS protection such as ratelimits per IP, and this will not be linked to your user data.\""
+]
 
 [rubric.revision-notify]
-value = "na"
+value = "yes"
+notes = [
+  "Users would be notified on-site, or over e-mail in case there was one provided. As the e-mail input is optional this cannot be guaranteed."
+]
