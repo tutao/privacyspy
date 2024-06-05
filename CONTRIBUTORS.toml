@@ -200,3 +200,8 @@ email = "5990@protonmail.com"
 name = "Loviuz"
 website = "https://loviuz.me"
 github = "loviuz"
+
+[smspool]
+name = "SMSPool"
+website = "https://www.smspool.net"
+github = "smspool"
