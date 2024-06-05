@@ -18,7 +18,7 @@ notes = [
 ]
 
 [rubric.third-party-collection]
-value = "yes-specified-critical"
+value = "critical-only"
 citations = [ "Smspool.net makes use of the services of third party companies that are processing your data. We are committed to only engage with those companies that fully comply with the GDPR and CCP, maintain the highest standards of data protection and never sell data to other parties. We only make use of the services of Cloudfare for Analytics, CDN and DDoS protection, based out of the United States that will monitor certain visitor behavior on our website. We advise you to read their Privacy Policy available on https://www.cloudflare.com/privacypolicy/. Next to Cloudflare; we use Stripe which processes your payments and the requests only contain your user ID." ]
 
 [rubric.history]
