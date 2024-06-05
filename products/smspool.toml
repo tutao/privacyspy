@@ -31,43 +31,28 @@ citations = [
 ]
 
 [rubric.data-breaches]
-value = "eventually"
+value = "yes-72"
 citations = [
-  "\"In an event of a breach, we recognize our responsibility to our customers and to the public to disclose the nature of the risk and provide a transparent account of the events without undue delay. We follow applicable requirements under the laws, that is, the Canadian data privacy breach notification requirements and the requirements related to data breach notification under the GDPR.\""
+  "\"In case of any breach, every user will be notified within 72 hours of the breach through any available channel that the user has provided.\""
 ]
 
 [rubric.third-party-access]
-value = "yes-unspecified-critical"
-citations = [
-  "\"Your Secure and Service data are held by third party data processors, who provide us with hosting and other infrastructure services. The locations of these are described above. In many cases (but we cannot promise that this will always be the case) even Service data held by these entities is encrypted with keys held only by us.\"\n\n\"Data needed to process payments is collected by our payment processor, Stripe, Inc., which conforms to the U.S.-E.U. Privacy Shield Framework.\""
-]
+value = "no"
 
 [rubric.data-collection-reasoning]
 value = "yes"
 citations = [
-  "\"We retain only enough Service Data to operate and maintain the services. These data are never used for any other purpose.\""
+  "\"We collect and process the following personal data from visitors and subscribers. The purpose of this will be to register you as a User to our services: Username, and optionally email address. In addition, we may store the IP addresses from each visitor, which is only used for statistical purposes, and this will not be linked to your personal data.\""
 ]
 
 [rubric.noncritical-purposes]
-value = "opt-in"
-citations = [
-  "In some cases we seek diagnostic reports and other troubleshooting, bug, and crash reports from customers to help identify and solve problems with our products and services. This information is sent to us only on a case by case basis, or by users who explicitly opt into our beta software programs or who otherwise explicitly choose to provide diagnostic data to us."
-]
+value = "na"
 
 [rubric.law-enforcement]
 value = "reasonable"
-citations = [
-  "\"We will comply with applicable laws and the contracts with our customers to provide Service Data and encrypted Secure Data to law enforcement agencies. If permitted, we will notify you of such a request and whether or not we have complied.\""
-]
 
 [rubric.list-collected]
-value = "generally"
-citations = [
-  "\"We get some limited data from your use of the 1Password products and services. Such data includes your IP address, and the make and model of your device through which you access or use 1Password products or services.\"\n\n\"It is visible to our staff and includes, but is not limited to, server logs, billing information, client IP addresses, number of vaults and number of items in vaults, company or family name, and email addresses. Service data includes the name you provide us for your profile and any image that you may upload, at your option and discretion, as part of your profile.\""
-]
+value = "na"
 
 [rubric.revision-notify]
-value = "yes"
-citations = [
-  "\"At our discretion, we may make changes to this Policy and note the date of the last revision. You should check here frequently if you need to know of updates to our Privacy Policy. We maintain the right to send you annoying email informing you of substantive changes. Previous versions will be made available from this page.\""
-]
+value = "na"
