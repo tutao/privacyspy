@@ -2,7 +2,7 @@ name = "ID.me"
 description = "Consumers can verify their identity with ID.me once and seamlessly log in across websites without having to create a new login or verify their identity again."
 slug = "id-me"
 hostnames = ["id.me"]
-sources = ["https://www.id.me/privacy", "https://www.id.me/security", "https://www.id.me/terms", "https://id.me/biometric", "https://id.me/washington-privacy", "https://account.id.me/privacy"]
+sources = ["https://www.id.me/privacy", "https://id.me/biometric", "https://www.id.me/security", "https://id.me/washington-privacy"]
 contributors = ["opile8"]
 
 [rubric.behavioral-marketing]
@@ -101,24 +101,32 @@ notes = [
 ]
 
 [rubric.history]
-value = "yes"
+value = "last-modified"
 citations = [
+  "[Privacy Policy Page]", 
   "This Privacy Policy may be periodically updated. This Privacy Policy may be updated 
   periodically to reflect new ID.me features or changes in our Personal Information practices. 
   We will post a notice for consumers at the top of this Privacy Policy of any significant 
   changes. We will indicate at the top of the Privacy Policy when the policy was most recently 
-  updated."
+  updated.",
+  "[Biometric Policy Page]", 
+  "This Biometric Information Privacy Policy may be periodically updated. From time-to-time we 
+  may update this policy to reflect new features or changes in our Personal Information practices 
+  or our Services. We will post a notice for users at the top of this Privacy Policy addressing 
+  any significant changes."
 ]
 notes = [
   "ID.me does not make previous policies available nor do they indicate (either on the website 
   or via customer email) the substance of any major changes. Wayback Machine (web.archive.org) 
-  confirmed ID.me does post a top banner with a link to the privacy policy. Since at 
-  least 2014, policies have included a version number and date when last updated."
+  confirmed ID.me does post a top banner with a link to the privacy policy when it changes. 
+  Both the privacy policy and biometric policy pages include a version number and date when 
+  last updated."
 ]
 
 [rubric.data-deletion]
 value = "yes-automated"
 citations = [
+  "[Privacy Policy Page]", 
   "Personal Information will be retained until we have fulfilled our legal, contractual and 
   policy obligations. ID.me stores your Personal Information for as long as needed, or 
   permitted, based on the reason why we obtained it (consistent with applicable law and 
@@ -132,12 +140,34 @@ citations = [
   supporting government agencies. Personal Information provided by users in connection with a 
   public sector agency as part of their verification may be retained for up to three (3) years 
   after account closure, unless applicable regulations require a shorter retention period."
+  "[Biometric Policy Page]", 
+  "8. Can I Request that ID.me Delete My Biometric Information?", 
+  "Yes, you may direct ID.me to delete your Biometric Information. After successfully verifying 
+  your identity, you may request that ID.me delete your Biometric Information. You may request 
+  the deletion of both the selfie image and Biometric Information submitted during your 
+  verification by submitting a request through the ID.me \"Privacy Rights Center\" which is a
+  ccessible via a link at the bottom of our Website, or under the \"Privacy\" setting in your 
+  account. Deletion of the selfie image and associated Biometric Information may take up to 
+  seven (7) days and will not impact the validity of your credential or verified status. ID.me 
+  reserves the right to retain this information as needed to comply with our legal obligations, 
+  including warrants, subpoenas or other court orders, or to help prevent fraud.", 
+  "Pursuant to the California Consumer Privacy Act of 2018 (CCPA), residents of California are 
+  entitled to additional rights and disclosures regarding their Personal information, including 
+  Biometric Information. Please see our Notice to California Residents for additional details 
+  regarding these disclosures and how to exercise your rights."
+]
+notes = [
+  "Some information you provide to ID.me may be retained for up to 36 months for legal 
+  compliance purposes following a deletion request. Biometric information will automatically 
+  \"age off\" after 36 months, if not sooner."
 ]
 
 [rubric.data-breaches]
 value = "no"
 notes = [
-  "Policy makes no mention of data breach procedures or notification to potential victims."
+  "Policy makes no mention of data breach procedures or notification to potential victims.", 
+  "It does, however, admit \"[...] that no data transmission or storage can be guaranteed 
+  to be 100% secure.\""
 ]
 
 [rubric.third-party-access]
@@ -165,13 +195,21 @@ citations = [
 [rubric.data-collection-reasoning]
 value = "yes"
 citations = [
+  "[Privacy Policy Page]", 
   "Verification information. When you verify yourself, either individually or as part of a 
   community, with ID.me you provide us with Personal Information that may include your name, 
   date of birth, social security number and/or other government issued identification numbers, 
   copies of your government issued identification card (e.g., license or passport), email 
   address, phone number, mailing address, and certain photographic images, and biometric data. 
   You may also be asked to provide community affiliations (e.g., Military, First Responder, 
-  Student, Veteran, etc.), memberships, educational degrees, and professional certifications."
+  Student, Veteran, etc.), memberships, educational degrees, and professional certifications.", 
+  "[Biometric Policy Page]", 
+  "We use your Biometric Information only as follows:", 
+  "- To verify your identity when you are opening an account or using our Services;", 
+  "- To authenticate use of your account and the Services for a transaction;", 
+  "- To prevent fraudulent uses of ID.me’s Services or the creation of multiple accounts; and", 
+  "- To comply with legal obligations or comply with a request from law enforcement or 
+  government entities where not prohibited by law."
 ]
 notes = [
   "ID.me uses this information to become a trusted middleman to verify your affiliation. 
@@ -196,6 +234,7 @@ notes = [
 [rubric.law-enforcement]
 value = "reasonable"
 citations = [
+  "[Privacy Policy Page]", 
   "We may share information as required with the United States federal government and certain 
   state governments. ID.me does not provide any government with direct and unfettered access to 
   our user's data, and we do not provide any government with our encryption keys or the ability 
@@ -208,19 +247,40 @@ citations = [
   justification for the additional information associated with the account, the request must be 
   targeted and specific in nature.", 
   "Our legal and compliance teams review all requests to ensure they are valid, reject those 
-  that are not valid, and only provide the data specified in the subpoena or similar court order."
+  that are not valid, and only provide the data specified in the subpoena or similar court order.", 
+  "[Biometric Policy Page]", 
+  "ID.me will only share your Biometric Information with our partners in the following circumstances:", 
+  "As required with other third parties where permitted by law to enforce our Terms of Service, to comply with legal obligations, or to cooperate with law enforcement agencies concerning conduct or activity that we reasonably believe may violate federal, state, or local law when required by a subpoena, warrant, or other court ordered legal action, and to prevent harm, loss or injury to others.", 
+  "To third party service providers that perform functions on our behalf. These service providers are limited to using the Biometric Information to assist in our provision of Services, and must maintain any Biometric Information we share in a secure fashion."
 ]
 
 [rubric.list-collected]
 value = "exhaustively"
 citations = [
+  "[Privacy Policy Page]",
   "Verification information. When you verify yourself, either individually or as part of a 
   community, with ID.me you provide us with Personal Information that may include your name, date 
   of birth, social security number and/or other government issued identification numbers, copies 
   of your government issued identification card (e.g., license or passport), email address, phone 
   number, mailing address, and certain photographic images, and biometric data.  You may also be 
   asked to provide community affiliations (e.g., Military, First Responder, Student, Veteran, 
-  etc.), memberships, educational degrees, and professional certifications."
+  etc.), memberships, educational degrees, and professional certifications.", 
+  "[Biometric Policy Page]", 
+  "The information we collect will vary depending on the specific type of Services you request. 
+  Many ID.me Services do not require Biometric Information, however certain Services – those 
+  requiring a NIST 800-63A IAL2 credential, such as the Internal Revenue Service (IRS), Office 
+  of Veterans Affairs (VA), or certain state unemployment or labor departments - may require a 
+  higher level of assurance for your identity verification. When you sign up for an applicable 
+  ID.me Service we may collect the following Biometric Information:", 
+  " - Facial Biometrics: Our Service may require you to upload an image of your government 
+  issued or other identification document(s) as well as your photographic image or \"selfie\" 
+  photograph using your mobile or other device. We use these images to create a facial geometry 
+  or faceprint which we use for purposes of identity verification and to prevent the creation 
+  of multiple accounts in a fraudulent manner.", 
+  " - Fingerprint Information: Our Service may require the submission of fingerprints, 
+  including fingerprint or hand scanning. Our Service may require the submission of 
+  fingerprints, including fingerprint or hand scanning, which we use for purposes of identity 
+  verification and to prevent the creation of multiple accounts in a fraudulent manner."
 ]
 
 [rubric.revision-notify]
