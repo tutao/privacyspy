@@ -201,6 +201,11 @@ name = "Loviuz"
 website = "https://loviuz.me"
 github = "loviuz"
 
+[smspool]
+name = "SMSPool"
+website = "https://www.smspool.net"
+github = "smspool"
+
 [opile8]
 name = "Ollie Pile"
 github = "opile8"
