@@ -82,7 +82,7 @@ citations = [
 ]
 
 [rubric.noncritical-purposes]
-value = "yes-opt-in"
+value = "opt-in"
 citations = [
   "We use technical analysis options very sparingly and only if you have consented in advance and to the extent that this is necessary for the further development and improvement of Tutanota. In particular, we do not use analysis tools such as Google Analytics or other third-party tools. ... If you have given consent in advance, your anonymized usage data will be sent to our servers.",
   "You can revoke your consent to participate in the anonymized usage statistics at any time by deactivating this function in the settings of your account. The random ID stored on your device is used only as long as users of the device participate in the collection of usage statistics.",
