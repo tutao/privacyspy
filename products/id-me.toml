@@ -150,7 +150,7 @@ value = "exhaustively"
 citations = [
   "[Privacy Policy Page]",
   "***Information You Provide***", 
-  "*We Collect Information You Provide to Us Which Includes:*"
+  "*We Collect Information You Provide to Us Which Includes:*",
   "**Verification information.** When you verify yourself, either individually or as part of a community, with ID.me you provide us with Personal Information that may include your name, date of birth, social security number and/or other government issued identification numbers, copies of your government issued identification card (e.g., license or passport), email address, phone number, mailing address, and certain photographic images, and biometric data.  You may also be asked to provide community affiliations (e.g., Military, First Responder, Student, Veteran, etc.), memberships, educational degrees, and professional certifications.", 
   "Please note, ID.me asks that you not provide physical documentation, via mail service or otherwise, to ID.me. All documentation to be collected should be provided either through the ID.me app or website portal, or presented to a trusted referee where applicable.", 
   "Your correspondence and your feedback about our Services. We collect information you provide when you contact us directly or provide feedback, comments, or suggestions on our Services directly to us.", 
