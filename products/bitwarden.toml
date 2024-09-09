@@ -37,12 +37,12 @@ Bitwarden may use the Personal Information collected by the Site to provide you 
 ]
 
 [rubric.data-deletion]
-value = "yes-automated"
-citations = ["If you terminate your relationship with Bitwarden, we will delete your Personal Information in accordance with our data retention policies."]
+value = "yes-contact"
+citations = ["We enable you to access, correct, and delete your account with the Bitwarden Service at any time. If you would like to request assistance with accessing, correcting, or deleting your Personal Information, please submit your request to us by email at privacypolicy@bitwarden.com. We will verify these requests and respond to you in accordance with our legal obligations, which typically means forwarding your request to the licensed administrator (in your organization) of your Bitwarden account for review."]
 
 [rubric.history]
 value = "last-modified"
-citations = ["Last revised 10-JUN-2021"]
+citations = ["Last revised APRIL-2024"]
 
 [rubric.law-enforcement]
 value = "reasonable"
@@ -51,6 +51,9 @@ citations = ["We believe that disclosure is reasonably necessary to comply with 
 [rubric.list-collected]
 value = "generally"
 citations = [
+"Bitwarden processes two kinds of user data to deliver the Bitwarden Service: (i) Vault Data and (ii) Administrative Data.",
+"Vault Data includes all information stored within accounts to the Bitwarden Service, including but not limited to login credentials, attachments including photos, videos, images and other files, and may include Personal Information. If we host the Bitwarden Service for you, we will host Vault Data. Vault Data is encrypted using secure cryptographic keys under your control. Bitwarden cannot access Vault Data.You may add, modify, and delete Vault Data at any time.",
+"Bitwarden obtains Personal Information in connection with your account creation, usage of the Bitwarden Service and support, and payments for the Bitwarden Service such as names, emails address, phone and other contact information for users of the Bitwarden Service and the number of items in your Bitwarden Service account (\"Administrative Data\"). Bitwarden uses Administrative Data to provide the Bitwarden Service to you. We retain Administrative Data for as long as you are a customer of Bitwarden and as required by law. If you terminate your relationship with Bitwarden, we will delete your Personal Information in accordance with our data retention policies.",
 """
 When you use the Site or communicate with us (e.g. via email) you will provide, and Bitwarden will collect certain Personal Information such as
 
@@ -65,7 +68,6 @@ When you use the Site or communicate with us (e.g. via email) you will provide, 
 - If you interact with the Bitwarden Community or training, or registered for an exam or event, we may collect biographical information and the content that you share.
 - Information gathered via cookies, pixel tags, logs, or other similar technologies."""
 ]
-notes = ["The list is difficult to argue to be exhaustive due to the use of \"such as\" when listing the collected data."]
 
 [rubric.noncritical-purposes]
 value = "opt-out-all"
@@ -76,17 +78,20 @@ value = "yes"
 citations = ["If we make any material changes, we will notify you by email (sent to the email address specified in your account registered with the Site or Bitwarden Service) or by means of a notice on the Site or Service."]
 
 [rubric.security]
-value = "somewhat"
+value = "yes-independent-audits"
 citations = [
 """
 The security of your Personal Information is important to us. Your data, including Personal Information, is never sent to the Bitwarden cloud servers without first being encrypted on your local device using AES 256 bit encryption. In addition, Bitwarden encrypts the transmission of that information using secure socket layer technology (SSL).
 
 We follow generally accepted standards to protect the Personal Information submitted to us, both during transmission and once it is received. You acknowledge and agree that no Internet or email transmission is ever fully secure or error free. You agree to take special care in deciding what information you send to us via email. If you have any questions about the security of your Personal Information, you can Contact Us."""
 ]
+notes= [
+  "Bitwarden is SOC2 and SOC3 certified and HIPAA compliant. More information about their audit history and compliance can be found at bitwarden.com/compliance"
+]
 
 [rubric.third-party-access]
-value = "yes-unspecified"
-notes = ["There is no clear list of third-party providers, only Google Analytics is mentioned as an example for their collection of Analytics Data."]
+value = "yes-specified-noncritical"
+notes = ["A list of subprocessors can be found at bitwarden.com/help/subprocessors. The privacy policy mentions only Google Analytics is mentioned as an example for their collection of Analytics Data."]
 
 [rubric.third-party-collection]
 value = "no"
