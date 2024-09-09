@@ -20,6 +20,12 @@ email = "ps@doamatto.xyz"
 
 [kulchynska]
 
+[vkeerthivikram]
+name = "V Keerthi Vikram"
+website = "https://bio.vkvikram.com"
+github = "vkeerthivikram"
+email = "privacyspy@mail.vkvikram.com"
+
 [YuriiStasiuk]
 
 [UnKnOwN]
@@ -109,7 +115,7 @@ email = "vutut@posteo.net"
 
 [newuser_SpxcB]
 
-[cvieira]
+[connervieira]
 name = "Conner Vieira"
 website = "https://v0lttech.com"
 github = "connervieira"
@@ -183,3 +189,26 @@ github = "davidbernau"
 
 [ausernameisnotavailable]
 github = "ausernameisnotavailable"
+
+[bcbee]
+github = "bcbee"
+
+[ItsIgnacioPortal]
+name = "Ignacio Portal"
+website = "https://itsignacioportal.github.io/"
+github = "ItsIgnacioPortal"
+email = "5990@protonmail.com"
+
+[loviuz]
+name = "Loviuz"
+website = "https://loviuz.me"
+github = "loviuz"
+
+[smspool]
+name = "SMSPool"
+website = "https://www.smspool.net"
+github = "smspool"
+
+[opile8]
+name = "Ollie Pile"
+github = "opile8"
