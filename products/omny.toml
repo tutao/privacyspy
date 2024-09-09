@@ -3,11 +3,11 @@ description = "OMNY is a public transit payment system in the New York City area
 slug = "omny"
 hostnames = [ "omny.info" ]
 sources = [ "https://omny.info/privacy-policy" ]
-contributors = [ "ausernameisnotavailable" ]
+contributors = [ "ausernameisnotavailable", "doamatto" ]
 
 [rubric.behavioral-marketing]
 value = "yes"
-citations = ["We use information that we collect or process, including Personal Information, Online Activity Information, and Anonymous Information, as permitted under applicable law and consistent with this OMNY Privacy Policy and the OMNY Terms of Service. More specifically, we use the information we collect for the following purposes:...to perform analytics, quality control, market research, and to determine the effectiveness of our OMNY Services, promotional campaigns, to improve our current products, OMNY Services, and develop new products and services;...In addition to the uses specifically identified above, there may be instances where you request information and OMNY Services from us that are not described in this OMNY Privacy Policy."]
+citations = ["We use information that we collect or process, including Personal Information, Online Activity Information, and Anonymous Information, as permitted under applicable law and consistent with this OMNY Privacy Policy and the OMNY Terms of Service. More specifically, we use the information we collect for the following purposes: ... to perform analytics, quality control, market research, and to determine the effectiveness of our OMNY Services, promotional campaigns, to improve our current products, OMNY Services, and develop new products and services;...In addition to the uses specifically identified above, there may be instances where you request information and OMNY Services from us that are not described in this OMNY Privacy Policy."]
 
 [rubric.data-breaches]
 value = "no"
@@ -32,7 +32,7 @@ value = "strict"
 citations = ["We may be required to share your Personal Information pursuant to a court order or other legal or regulatory obligation or process."]
 
 [rubric.list-collected]
-value = "exhaustively"
+value = "generally"
 citations = ["We collect a few categories of information via our OMNY Services:"]
 notes = ["A full list of data collected is available."]
 
@@ -54,6 +54,6 @@ value = "yes-unspecified"
 citations = ["We may share your Personal Information among our affiliates and subsidiaries for purposes consistent with this OMNY Privacy Policy."]
 
 [rubric.third-party-collection]
-value = "no" 
+value = "no"
 citations = ["If we collect other information about you using a method that is not specifically listed here, then we will use it in accordance with this OMNY Privacy Policy."]
 notes = ["No specific mentioning of third-party data collection, although they do state they they may collect data from other methods that have not been listed."]
