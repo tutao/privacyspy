@@ -1,9 +1,9 @@
 name = "SMSPool"
-description = "SMSPool is a service that protects your identity with the usage of virtual phone numbers which help you mask your own phone number."
+description = "SMSPool is a service that provides temporary phone numbers."
 slug = "smspool"
 hostnames = [ "www.smspool.net" ]
 sources = [ "https://www.smspool.net/privacy-policy" ]
-contributors = [ "smspool" ]
+contributors = [ "smspool", "doamatto" ]
 
 [rubric.behavioral-marketing]
 value = "no"
@@ -12,7 +12,7 @@ citations = [
 ]
 
 [rubric.security]
-value = "yes"
+value = "somewhat"
 notes = [
   "Smspool.net is committed to taking all necessary measures and actions to protect your data. Our data protection practices are based on the best industry standards such as hashing your passwords with bCrypt, and only ask for information that is deemed important to us."
 ]
@@ -52,10 +52,11 @@ citations = [
 ]
 
 [rubric.noncritical-purposes]
-value = "na"
+value = "opt-out-some"
 citations = [
-  "\"All data we collect and process will be used to provide our Services to you. In addition, we may use this information for maintaining and improving our website, mobile applications and all other services we offer. We may provide you with information about our Services that you explicitly requested from us, answering your questions or responding to other communications you send to us. We do not send sell/send your information for marketing.\""
-  ]
+  "\"All data we collect and process will be used to provide our Services to you. In addition, we may use this information for maintaining and improving our website, mobile applications and all other services we offer. We may provide you with information about our Services that you explicitly requested from us, answering your questions or responding to other communications you send to us. We do not send sell/send your information for marketing.\"",
+  "We only make use of the services of Cloudfare for Analytics, CDN and DDoS protection, based out of the United States that will monitor certain visitor behavior on our website."
+]
 
 [rubric.law-enforcement]
 value = "reasonable"
