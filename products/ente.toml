@@ -1,0 +1,104 @@
+name = "ente"
+description = "Ente is an end-to-end encrypted, open-source cloud storage service for photos and videos, offering privacy-focused alternatives to Google Photos and iCloud across multiple platforms."
+slug = "ente"
+hostnames = [ "ente.io" ]
+sources = [
+  "https://ente.io/privacy"
+]
+contributors = [ "vkeerthivikram" ]
+
+[rubric.behavioral-marketing]
+value = "no"
+citations = [
+  "We do not sell your personal information, nor do we intend to do so."
+]
+notes = [
+  "The privacy policy does not mention any behavioral or targeted marketing practices. It emphasizes privacy and minimal data collection."
+]
+
+
+[rubric.data-breaches]
+value = "yes-72"
+citations = ["In the event of a personal data breach, we will notify you within seventy-two (72) hours via email."]
+notes = [
+  "The privacy policy explicitly states that users will be notified within 72 hours of a personal data breach, which meets the criteria for the 'yes-72' value.",
+  "This policy aligns with GDPR Article 33, which requires companies to notify their data protection authority of a breach within 72 hours."
+]
+
+[rubric.data-collection-reasoning]
+value = "mostly"
+citations = ["We collect and store only the bare minimum amount of information necessary to fulfill our role as a service provider."]
+notes = ["The privacy policy provides a clear list of what information is collected and generally explains why, but doesn't give specific reasoning for each data point collected. They emphasize minimal data collection overall."]
+
+
+[rubric.data-deletion]
+value = "yes-automated"
+citations = ["After account termination, we may retain your Data for sixty (60) days, or as warranted by your jurisdiction (\"Retention Period\"), unless an enforcement action is likely under ourTerms. If there is no enforcement action likely or commenced and Retention Period has expired, your Data that identifies you will be anonymized."]
+notes = ["The privacy policy states that users can terminate their account, which leads to the permanent deletion of personal data after a retention period. While there's a delay before full deletion, this still satisfies the criteria for permanent deletion."]
+
+[rubric.history]
+value = "last-modified"
+citations = ["Last Updated: Sep 25, 2024"]
+notes = ["The privacy policy includes a 'Last Updated' date at the beginning, which indicates when the policy was last modified. However, it does not provide a full history of changes or previous versions."]
+
+[rubric.law-enforcement]
+value = "strict"
+citations = ["We will disclose personal information (i) to comply with any court order, law, or legal process, including to respond to any government or regulatory request"]
+notes = ["The privacy policy states that Ente will only disclose personal information to law enforcement in response to legal processes like court orders or government requests, which aligns with the 'strict' criteria of 'Only when required by a court order or subpoena'.", "It's important to note that Ente emphasizes end-to-end encryption for user files and metadata, stating 'Your Files, their metadata and any derived indexes (including but not limited to Biometric Information such as face geometry) are stored end-to-end encrypted.' This suggests that even if compelled, Ente may have limited access to user data."]
+
+
+[rubric.list-collected]
+value = "exhaustively"
+citations = ["Information you Provide: At the time of registration, or through your use of our Services, you will provide us with 1. Your email address; 2. Referral details including referrers and people you have referred; 3. Email addresses you choose to share your Files with; 4. Our Communications with you and records or copies of such communications; 5. Other personal information you provide to us for support purposes, bug reports, newsletters, surveys, sweepstakes, product feedback, or via forms.", "Information we automatically collect: 1. Public keys; 2. Anonymized crash reports; 3. Server logs; 4. Device identifiers including information about your internet connection, IP address and user agent details; 5. Takedowns and account suspension history."]
+notes = ["The privacy policy provides a detailed and specific list of the types of personal data collected, both provided by the user and automatically collected. This level of detail meets the criteria for 'exhaustively' listing the collected personal data."]
+
+[rubric.noncritical-purposes]
+value = "na"
+citations = ["We collect and store only the bare minimum amount of information necessary to fulfill our role as a service provider."]
+notes = ["The privacy policy emphasizes minimal data collection and does not mention any non-critical data collection or usage. There are no opt-out or opt-in options mentioned for non-critical purposes, suggesting that no data is collected or used for such purposes.", "The policy explicitly states that they do not sell personal information or engage in behavioral marketing practices."]
+
+[rubric.revision-notify]
+value = "no"
+citations = ["We will update this privacy policy as needed so that it is current, accurate, and as clear as possible. Your continued use of our Services confirms your acceptance of our updated Privacy Policy."]
+notes = [
+  "The privacy policy does not explicitly state that users will be notified when the policy is meaningfully changed.",
+  "While there is a 'Last Updated' date (Sep 25, 2024) at the beginning of the policy, this alone does not constitute active notification to affected users.",
+  "The policy puts the onus on users to check for updates, as it states that continued use confirms acceptance of the updated policy."
+]
+
+[rubric.security]
+value = "yes"
+citations = [
+  "We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. Specifically (a) all information you provide to us is stored on our secure servers behind firewalls, (b) our website and app use an SSL certificate, receive regular security scans, penetration tests and regular malware scans; (c) we require username and passwords for our employees who can access your personal information that we store and/or process, and (d) we actively prevent third parties from getting access to your personal information that we store and/or process.",
+  "Your Files, their metadata and any derived indexes (including but not limited to Biometric Information such as face geometry) are stored end-to-end encrypted."
+]
+notes = [
+  "The policy outlines several specific security measures implemented by Ente, including secure servers, firewalls, SSL certificates, regular security scans, and access controls.",
+  "The policy emphasizes end-to-end encryption for user files and metadata, which is a strong security practice.",
+  "While the policy provides a good overview of security practices, it does not mention specific audits or independent reviews, so it doesn't qualify for the 'yes-audits' or 'yes-independent-audits' values."
+]
+
+[rubric.third-party-access]
+value = "yes-specified-critical"
+citations = ["We do not sell, trade, rent, or otherwise transfer personal information to others, unless we provide you with advance notice. There are times when Personal Information that you have shared with us may be shared by Ente with others to enable us to provide you over Services, including contractors, service providers, and third parties (\"Partners\") and subsidiaries.", "Your Files, their metadata and any derived indexes (including but not limited to Biometric Information such as face geometry) are stored end-to-end encrypted.", "Ente uses the following third-party service providers for the provision of services as detailed under the Terms, as applicable: [list of providers including Apple, Google, Stripe, BitPay, PayPal, Scaleway, Backblaze, Cloudflare, Amazon, Hetzner, FeatureMonkey, Simple Analytics, Zoho, Grafana, Open Street Maps]"]
+notes = [
+"The policy specifies that personal information may be shared with third-party service providers, but only for critical services necessary to provide the core functionality.",
+"User files and metadata are end-to-end encrypted, which means they don't count as third-party access even if they pass through third-party infrastructure.",
+"The policy provides an exhaustive list of third-party service providers, including their use cases and privacy policy links, demonstrating transparency about critical service providers.",
+"The sharing seems limited to critical service providers for purposes such as payments, storage, infrastructure, and analytics, not for non-critical purposes like advertising.",
+"While the policy does allow some third-party access, it appears to be limited to specified critical service providers, justifying the 'yes-specified-critical' value."
+]
+
+[rubric.third-party-collection]
+value = "critical-only"
+citations = [
+  "We collect payment invoices provided to us by our third-party payment processors, which includes details of your Subscription Plan and any payments made by you in favor of Ente in order to receive Services from us. We do not collect or store any credit cards or bank information.",
+  "Ente uses the following third-party service providers for the provision of services as detailed under the Terms, as applicable: [list of providers including Apple, Google, Stripe, BitPay, PayPal, Scaleway, Backblaze, Cloudflare, Amazon, Hetzner, FeatureMonkey, Simple Analytics, Zoho, Grafana, Open Street Maps]"
+]
+notes = [
+  "While the privacy policy doesn't explicitly mention data brokers or independent verification authorities, it does indicate collection of critical data from third-party payment processors.",
+  "The list of third-party service providers suggests that some critical data collection from these parties may occur for essential service provision.",
+  "The policy emphasizes minimal data collection, suggesting that any third-party data collection is likely limited to critical purposes only.",
+  "Although not explicitly stated, services like payment processing or identity verification (if implemented) would fall under critical data collection from third parties.",
+  "The 'critical-only' value is appropriate given the focus on essential service provision and the absence of any indication of non-critical third-party data collection."
+]
