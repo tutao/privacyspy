@@ -24,7 +24,7 @@ email = "ps@doamatto.xyz"
 name = "V Keerthi Vikram"
 website = "https://bio.vkvikram.com"
 github = "vkeerthivikram"
-email = "privacyspy@mail.vkvikram.com"
+
 
 [YuriiStasiuk]
 
@@ -187,6 +187,9 @@ github = "davidbernau"
 
 [kelplover]
 
+[ausernameisnotavailable]
+github = "ausernameisnotavailable"
+
 [bcbee]
 github = "bcbee"
 
@@ -204,3 +207,12 @@ github = "loviuz"
 [SimplyUnknown]
 name = "SimplyUnknown"
 github = "simplyknown"
+
+[smspool]
+name = "SMSPool"
+website = "https://www.smspool.net"
+github = "smspool"
+
+[opile8]
+name = "Ollie Pile"
+github = "opile8"
