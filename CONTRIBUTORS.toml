@@ -204,6 +204,10 @@ name = "Loviuz"
 website = "https://loviuz.me"
 github = "loviuz"
 
+[SimplyUnknown]
+name = "SimplyUnknown"
+github = "simplyknown"
+
 [smspool]
 name = "SMSPool"
 website = "https://www.smspool.net"
