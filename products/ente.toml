@@ -1,29 +1,17 @@
 name = "Ente"
-description = "Ente is an end-to-end encrypted, open-source cloud storage service for photos and videos, offering privacy-focused alternatives to Google Photos and iCloud across multiple platforms."
+description = "Ente is an end-to-end encrypted, open-source cloud storage service for photos and videos."
 slug = "ente"
-hostnames = [
-  "ente.io"
-]
-sources = [
-  "https://ente.io/privacy"
-]
-contributors = [
-  "vkeerthivikram"
-]
+hostnames = [ "ente.io" ]
+sources = [ "https://ente.io/privacy" ]
+contributors = [ "vkeerthivikram" ]
 
 [rubric.behavioral-marketing]
 value = "no"
-citations = [
-  "We do not sell your personal information, nor do we intend to do so."
-]
-
+citations = [ "We do not sell your personal information, nor do we intend to do so." ]
 
 [rubric.data-breaches]
 value = "yes-72"
-citations = [
-  "In the event of a personal data breach, we will notify you within seventy-two (72) hours via email."
-]
-
+citations = [ "In the event of a personal data breach, we will notify you within seventy-two (72) hours via email." ]
 
 [rubric.data-collection-reasoning]
 value = "yes"
@@ -43,7 +31,6 @@ citations = [
   """
 ]
 
-
 [rubric.data-deletion]
 value = "yes-contact"
 citations = [
@@ -56,17 +43,11 @@ notes = [
 
 [rubric.history]
 value = "last-modified"
-citations = [
-  "Last Updated: Sep 25, 2024"
-]
+citations = [ "Last Updated: Sep 25, 2024" ]
 
 [rubric.law-enforcement]
 value = "strict"
-citations = [
-  "We will disclose personal information (i) to comply with any court order, law, or legal process, including to respond to any government or regulatory request"
-]
-
-
+citations = [ "We will disclose personal information (i) to comply with any court order, law, or legal process, including to respond to any government or regulatory request" ]
 
 [rubric.list-collected]
 value = "exhaustively"
@@ -78,22 +59,16 @@ citations = [
 
 [rubric.noncritical-purposes]
 value = "na"
-notes = [
-  "There is no mention of non-critical purposes for collecting data in the privacy policy."
-]
+notes = [ "There is no mention of non-critical purposes for collecting data in the privacy policy." ]
 
 [rubric.revision-notify]
 value = "no"
-citations = [
-  "We will update this privacy policy as needed so that it is current, accurate, and as clear as possible. Your continued use of our Services confirms your acceptance of our updated Privacy Policy."
-]
-
+citations = [ "We will update this privacy policy as needed so that it is current, accurate, and as clear as possible. Your continued use of our Services confirms your acceptance of our updated Privacy Policy." ]
 
 [rubric.security]
 value = "somewhat"
-notes = [
-  "While Ente has undergone third-party security audits (By Fallible and Cure53) , the specific details of these audits are not disclosed in the privacy policy. These details are however disclosed in their blog post https://ente.io/cryptography-audit/ente-audit-report.pdf https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf https://ente.io/blog/cryptography-audit/"
-]
+citations = [ "We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. Specifically (a) all information you provide to us is stored on our secure servers behind firewalls, (b) our website and app use an SSL certificate, receive regular security scans, penetration tests and regular malware scans; (c) we require username and passwords for our employees who can access your personal information that we store and/or process, and (d) we actively prevent third parties from getting access to your personal information that we store and/or process." ]
+notes = [ "While Ente has undergone third-party security audits (by Cure53 and Fallible), it's been awhile since their last audit (Feb 2023). You can view more information about the audits on their blog: https://ente.io/blog/cryptography-audit/" ]
 
 [rubric.third-party-access]
 value = "yes-specified-critical"
@@ -102,9 +77,6 @@ citations = [
   "Ente uses the following third-party service providers for the provision of services as detailed under the Terms, as applicable: Apple, Google, Stripe, BitPay, PayPal, Scaleway, Backblaze, Cloudflare, Amazon, Hetzner, FeatureMonkey, Simple Analytics, Zoho, Grafana, Open Street Maps"
 ]
 
-
 [rubric.third-party-collection]
 value = "critical-only"
-notes = [
-  "The privacy policy states the third party critical services with which it shares data."
-]
+citations = [ "We collect payment invoices provided to us by our third-party payment processors, which includes details of your Subscription Plan and any payments made by you in favor of Ente in order to receive Services from us. We do not collect or store any credit cards or bank information." ]
