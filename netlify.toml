@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "gulp"
+  command = "npx gulp"
 
 [context.production]
   environment = { NODE_ENV = "production" }
